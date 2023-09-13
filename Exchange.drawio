@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T11:36:48.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="KPmE-grMGWY7FHLoGdbQ" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T11:44:27.159Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="jf2ex4_SwALWfe3JM5o8" version="21.7.4" type="github">
   <diagram name="Page-1" id="W3rRGqENTHbZlLEFgb1b">
     <mxGraphModel dx="756" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="ScidtNdO1ESNn-v9GQUH-5" value="Is this the first exchange request of the product?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="359" y="200" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ScidtNdO1ESNn-v9GQUH-7" value="Notify Customer to place return instead" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ScidtNdO1ESNn-v9GQUH-7" value="Disable the exchange option" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="559" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JA2g4LetsIYO5BSw-Kvd-1" value="Requested Size Available?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -53,7 +53,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JA2g4LetsIYO5BSw-Kvd-4" value="Notify Customer to place return instead" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="JA2g4LetsIYO5BSw-Kvd-4" value="Disable the exchange option" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="559" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oCVxNS5rtqSEk9UW2aVz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
@@ -104,6 +104,9 @@
         <mxCell id="-Rj4HsypdWDS_JMWcQnK-2" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oCVxNS5rtqSEk9UW2aVz-21" target="UO_pKAjwZwLIk6cYcGZx-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-Rj4HsypdWDS_JMWcQnK-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oCVxNS5rtqSEk9UW2aVz-21" target="-Rj4HsypdWDS_JMWcQnK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oCVxNS5rtqSEk9UW2aVz-21" value="Place the exchange order for the customer" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="359" y="710" width="120" height="60" as="geometry" />
         </mxCell>
@@ -138,7 +141,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NZ-VTRtyp2TgSuCaYria-10" value="Exchange the product" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="NZ-VTRtyp2TgSuCaYria-10" value="Exchange the product" style="whiteSpace=wrap;html=1;strokeColor=#80FF00;" parent="1" vertex="1">
           <mxGeometry x="559" y="1633" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UO_pKAjwZwLIk6cYcGZx-1" value="Customer had received correct product?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -166,7 +169,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UO_pKAjwZwLIk6cYcGZx-6" value="Cancel the exchange request" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UO_pKAjwZwLIk6cYcGZx-6" value="Cancel the exchange request" style="whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="559" y="1803" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UO_pKAjwZwLIk6cYcGZx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UO_pKAjwZwLIk6cYcGZx-7" edge="1">
@@ -174,13 +177,16 @@
             <mxPoint x="419" y="2073" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UO_pKAjwZwLIk6cYcGZx-7" value="Exchange the product" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UO_pKAjwZwLIk6cYcGZx-7" value="Exchange the product" style="whiteSpace=wrap;html=1;strokeColor=#80FF00;" parent="1" vertex="1">
           <mxGeometry x="359" y="1943" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UO_pKAjwZwLIk6cYcGZx-10" value="" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;strokeColor=#990000;" parent="1" vertex="1">
           <mxGeometry x="400" y="2077" width="39" height="39" as="geometry" />
         </mxCell>
         <mxCell id="-Rj4HsypdWDS_JMWcQnK-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UO_pKAjwZwLIk6cYcGZx-12" target="NZ-VTRtyp2TgSuCaYria-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rj4HsypdWDS_JMWcQnK-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="UO_pKAjwZwLIk6cYcGZx-12" target="-Rj4HsypdWDS_JMWcQnK-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UO_pKAjwZwLIk6cYcGZx-12" value="Wait for the item to reach the nearest delivery hub" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -210,7 +216,7 @@
         <mxCell id="UO_pKAjwZwLIk6cYcGZx-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UO_pKAjwZwLIk6cYcGZx-26" target="UO_pKAjwZwLIk6cYcGZx-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UO_pKAjwZwLIk6cYcGZx-26" value="Notify the customer and retry exchange the next day" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UO_pKAjwZwLIk6cYcGZx-26" value="Notify the customer and retry exchange the next day" style="whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="559.5" y="1278" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UO_pKAjwZwLIk6cYcGZx-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="UO_pKAjwZwLIk6cYcGZx-30" target="UO_pKAjwZwLIk6cYcGZx-26" edge="1">
@@ -232,7 +238,7 @@
         <mxCell id="UO_pKAjwZwLIk6cYcGZx-30" value="No of retries &amp;lt; 3?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="559.5" y="1375" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="UO_pKAjwZwLIk6cYcGZx-47" value="Notify the customer and cancel the exchange request." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UO_pKAjwZwLIk6cYcGZx-47" value="Notify the customer and cancel the exchange request." style="whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="559" y="1541" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Rj4HsypdWDS_JMWcQnK-4" value="A" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;strokeColor=#eeff00;gradientColor=none;" vertex="1" parent="1">
@@ -243,6 +249,12 @@
         </mxCell>
         <mxCell id="-Rj4HsypdWDS_JMWcQnK-7" value="A" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;strokeWidth=5;perimeter=ellipsePerimeter;strokeColor=#eeff00;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="1240" width="39" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rj4HsypdWDS_JMWcQnK-12" value="Notify the customer that the exchange order is placed along with EDD." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="180" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-Rj4HsypdWDS_JMWcQnK-14" value="Notify the customer that the exchange order has reached the nearest delivery hub." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#80FF00;" vertex="1" parent="1">
+          <mxGeometry x="559.5" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
