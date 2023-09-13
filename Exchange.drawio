@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T11:32:59.782Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="CO8le20nv1cUl_r7bNks" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T11:36:48.485Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="KPmE-grMGWY7FHLoGdbQ" version="21.7.4" type="github">
   <diagram name="Page-1" id="W3rRGqENTHbZlLEFgb1b">
-    <mxGraphModel dx="1222" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="756" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,14 +67,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oCVxNS5rtqSEk9UW2aVz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oCVxNS5rtqSEk9UW2aVz-5" target="oCVxNS5rtqSEk9UW2aVz-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oCVxNS5rtqSEk9UW2aVz-18" value="YES&lt;br&gt;Decreased" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oCVxNS5rtqSEk9UW2aVz-17" vertex="1" connectable="0">
-          <mxGeometry x="0.0606" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="oCVxNS5rtqSEk9UW2aVz-5" value="Has the price&lt;br&gt;of the article&lt;br&gt;changed?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="359" y="540" width="120" height="120" as="geometry" />
         </mxCell>
@@ -83,7 +75,7 @@
             <mxPoint x="479" y="600" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oCVxNS5rtqSEk9UW2aVz-7" value="YES&lt;br&gt;Increased" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oCVxNS5rtqSEk9UW2aVz-6" vertex="1" connectable="0">
+        <mxCell id="oCVxNS5rtqSEk9UW2aVz-7" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oCVxNS5rtqSEk9UW2aVz-6" vertex="1" connectable="0">
           <mxGeometry x="-0.0333" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -108,12 +100,6 @@
           <mxGeometry x="-0.208" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="oCVxNS5rtqSEk9UW2aVz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oCVxNS5rtqSEk9UW2aVz-16" target="oCVxNS5rtqSEk9UW2aVz-21" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oCVxNS5rtqSEk9UW2aVz-16" value="Refund the price difference" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="159" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Rj4HsypdWDS_JMWcQnK-2" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="oCVxNS5rtqSEk9UW2aVz-21" target="UO_pKAjwZwLIk6cYcGZx-12">
           <mxGeometry relative="1" as="geometry" />
@@ -243,7 +229,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UO_pKAjwZwLIk6cYcGZx-30" value="No of retries &amp;lt; 2?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="UO_pKAjwZwLIk6cYcGZx-30" value="No of retries &amp;lt; 3?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="559.5" y="1375" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="UO_pKAjwZwLIk6cYcGZx-47" value="Notify the customer and cancel the exchange request." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
