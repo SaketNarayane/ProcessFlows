@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T09:33:42.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="xyMtj4f_OxS2vlBv7JsM" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-03T09:35:21.271Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UAXScdTdxcurRlwPfbcj" version="22.1.16" type="github">
   <diagram name="Page-1" id="W3rRGqENTHbZlLEFgb1b">
     <mxGraphModel dx="2389" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -208,8 +208,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Eak77jfEV6MkrdANvSCe-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eak77jfEV6MkrdANvSCe-7" target="Eak77jfEV6MkrdANvSCe-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Eak77jfEV6MkrdANvSCe-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eak77jfEV6MkrdANvSCe-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1292" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Eak77jfEV6MkrdANvSCe-13" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eak77jfEV6MkrdANvSCe-12">
           <mxGeometry x="-0.3" y="-1" relative="1" as="geometry">
@@ -222,10 +224,10 @@
         <mxCell id="Eak77jfEV6MkrdANvSCe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eak77jfEV6MkrdANvSCe-8" target="UO_pKAjwZwLIk6cYcGZx-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Eak77jfEV6MkrdANvSCe-8" value="Release the item from the warehouse" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Eak77jfEV6MkrdANvSCe-8" value="Release the order from the warehouse" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1422" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Eak77jfEV6MkrdANvSCe-11" value="Cancel the exchange order" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Eak77jfEV6MkrdANvSCe-21" value="Notify the customer and cancel the exchange Order." style="whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="520" y="1262" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
