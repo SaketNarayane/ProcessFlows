@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T11:08:37.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fHIKX_Rh0NmJC1Dj0_5C" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T11:08:57.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qJB7fNKjGKq48LIN-FjK" version="22.1.16" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1033" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="167" dy="74" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -74,7 +74,7 @@
         <mxCell id="nn-r_4yjab_nnU3QHyKc-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nn-r_4yjab_nnU3QHyKc-33" target="nn-r_4yjab_nnU3QHyKc-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nn-r_4yjab_nnU3QHyKc-33" value="Open points:&lt;br&gt;How does the exchange order flows into the SAP" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="nn-r_4yjab_nnU3QHyKc-33" value="Open points:&lt;br&gt;How does the exchange order flows into the SAP" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;fillColor=#FFCC99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="279" y="845" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nn-r_4yjab_nnU3QHyKc-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nn-r_4yjab_nnU3QHyKc-35" target="WIyWlLk6GJQsqaUBKTNV-3">
